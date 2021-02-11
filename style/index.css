@@ -1,1 +1,50 @@
-/* Add CSS styling here */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav h2 {
+  width: 100%;
+}
+
+nav a {
+  background-color: black;
+  color: white;
+  padding: 1%;
+}
+
+.left img {
+  padding: 10px;
+  width: 600px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery img {
+  width: 400px;
+}
+
+.gallery div p {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+footer h2 {
+  width: 100%;
+  align-content: center;
+}
