@@ -55,6 +55,14 @@ footer h2 {
 
 @media(max-width: 800px) {
 
+  .gallery div {
+    width: 40%;
+    padding: 2%;
+  }
+
+  .gallery img {
+    width: 300px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -102,6 +110,7 @@ footer h2 {
 
   .gallery div {
     width: 40%;
+    padding: 2%;
   }
 
   .gallery img {
