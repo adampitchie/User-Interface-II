@@ -1,3 +1,7 @@
+* {
+  border: 1px solid black;
+}
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -47,4 +51,69 @@ footer {
 footer h2 {
   width: 100%;
   text-align: center;
+}
+
+@media(max-width: 800px) {
+
+}
+
+@media(max-width: 500px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+  }
+
+  nav h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 2%;
+  }
+
+  .cta {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .text h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .left img {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .gallery {
+    /* display: flex;
+    flex-direction: wrap;
+    justify-content: space-between; */
+    /* width: 40%; */
+  }
+
+  .gallery div {
+    width: 40%;
+    /* justify-content: center; */
+  }
+
+  .gallery img {
+    width: 200px;
+  }
+  
 }
