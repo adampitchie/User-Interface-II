@@ -100,16 +100,8 @@ footer h2 {
     margin: 0px auto;
   }
 
-  .gallery {
-    /* display: flex;
-    flex-direction: wrap;
-    justify-content: space-between; */
-    /* width: 40%; */
-  }
-
   .gallery div {
     width: 40%;
-    /* justify-content: center; */
   }
 
   .gallery img {
