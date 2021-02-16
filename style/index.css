@@ -1,1 +1,120 @@
-/* Add CSS styling here */
+* {
+  border: 1px solid black;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav h2 {
+  width: 100%;
+}
+
+nav a {
+  background-color: black;
+  color: white;
+  padding: 1%;
+}
+
+.left img {
+  padding: 10px;
+  width: 600px;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery img {
+  width: 400px;
+}
+
+.gallery div p {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+footer h2 {
+  width: 100%;
+  text-align: center;
+}
+
+@media(max-width: 800px) {
+
+  .gallery div {
+    width: 40%;
+    padding: 2%;
+  }
+
+  .gallery img {
+    width: 300px;
+  }
+}
+
+@media(max-width: 500px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+  }
+
+  nav h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 2%;
+  }
+
+  .cta {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .text h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .left img {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .gallery div {
+    width: 40%;
+    padding: 2%;
+  }
+
+  .gallery img {
+    width: 200px;
+  }
+  
+}
